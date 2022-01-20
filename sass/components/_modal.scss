@@ -89,11 +89,11 @@
   flex-direction: column;
 
   margin-bottom: 10px;
+  &:nth-child(5) {
+    margin-bottom: 20px;
+  }
 }
 
-.form__field--margin {
-  margin-bottom: 20px;
-}
 .form__label {
   margin-bottom: 4px;
 
@@ -189,7 +189,7 @@
   margin-left: 8.38px;
 }
 .checkbox__link {
-  color: &accent-color;
+  color: $accent-color;
 }
 
 .form__button {
